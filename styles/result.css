@@ -25,18 +25,10 @@ body {
   padding: 0.5rem;
 }
 
-/* .options {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-direction: row;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-box-align: end;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
+.results h2 {
+  text-align: center;
+  margin-top: 1rem;
 }
- */
 
 .options div {
   margin: 0.5rem;
@@ -58,6 +50,26 @@ body {
   height: 2.5rem;
 }
 
+.results div img {
+  width: 100%;
+  height: 100%;
+  border: thin solid #d0d1d3;
+}
+
+.results div img:hover {
+  transform: scale(0.9);
+}
+
+.results div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+
+
 @media (min-width: 768px) {
   .filter {
     margin-top: 6rem;
@@ -70,5 +82,17 @@ body {
 
   .options div {
     flex: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .results div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .results div {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
