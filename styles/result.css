@@ -1,0 +1,23 @@
+body {
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.filter {
+  background-color: #eee;
+  color: #929292;
+  text-align: center;
+  margin-top: 6rem;
+  padding-top: 3rem 1rem 7rem;
+}
+
+.filter h1 {
+  font-size: 1.5rem;
+}
