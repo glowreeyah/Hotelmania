@@ -16,7 +16,7 @@ body {
   color: #929292;
   text-align: center;
   margin-top: 8rem;
-  padding-top: 2rem 2rem;
+  padding: 4rem 1rem 8rem;
 }
 
 .filter h1 {
@@ -30,19 +30,22 @@ body {
   margin-top: 1rem;
 }
 
-.options div {
-  margin: 0.5rem;
+.hotel,
+.state,
+.in,
+.out {
+  margin: 0.2rem;
   padding: 0.2rem;
 }
 
-.options label {
+.filter-form label {
   display: block;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.options input,
-.options select {
+.filter-form input,
+.filter-form select {
   border: 0.03rem solid #d0d1d3;
   border-radius: 0.4rem;
   padding-left: 0.5rem;
@@ -80,17 +83,57 @@ body {
   color: rgb(117, 57, 57);
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 0.7em;
+  text-align: center;
+}
+
+.search-btn {
+  background-color: #457eb4;
+  border: none;
+  margin-right: 0.5rem;
+  padding: 0.7rem;
+  flex: 1;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.clear-filter {
+  background-color: #e5ab5a;
+  flex: 1;
+  border: none;
+  margin-right: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.clear-filter .far {
+  margin: auto .5rem auto 0;              
+}
+
+.search-btn:hover,
+.clear-filter:hover {
+  transform: scale(0.9);
+}
+
 @media (min-width: 768px) {
   .filter {
     margin-top: 6rem;
   }
 
-  .options {
+  .filter-form {
     display: flex;
     justify-content: space-between;
   }
 
-  .options div {
+  .hotel,
+  .state,
+  .in,
+  .out,
+  .buttons {
     flex: 1;
   }
 }
@@ -104,5 +147,9 @@ body {
 @media only screen and (max-width: 1024px) {
   .results div {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .filter-form {
+    display: block;
   }
 }

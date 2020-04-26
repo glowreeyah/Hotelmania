@@ -40,47 +40,51 @@
   <main>
     <section class="filter">
       <h1>Filter by city, hotel, check-in and check-out dates </h1>
-      <form action="#">
-        <div class="options">
-          <div class="hotel">
-            <label for="name">Hotel name:</label>
-            <input type="text" name="name" id="name">
-          </div>
-          <div class="state">
-            <label for="city">City:*</label>
-            <select name="city" id="city">
-              <option value="none">Choose</option>
-              <option value="uma">Umauhia</option>
-              <option value="ak">Awka</option>
-              <option value="bau">Bauchi</option>
-              <option value="yen">Yenagoa</option>
-              <option value="ado">Ado-Ekiti</option>
-              <option value="imo">Owerri</option>
-              <option value="dut">Dutse</option>
-              <option value="kd">Kaduna</option>
-              <option value="kano">Kano</option>
-              <option value="kog">Lokoja</option>
-              <option value="kwa">Ilorin</option>
-              <option value="lag">Ikeja</option>
-              <option value="nig">Minna</option>
-              <option value="ogun">Abeokuta</option>
-              <option value="oyo">Ibadan</option>
-              <option value="pla">Jos</option>
-              <option value="riv">Port-Harcourt</option>
-              <option value="sok">Sokoto</option>
-              <option value="fct">Abuja</option>
-            </select>
-          </div>
-          <div class="in">
-            <label for="book">Check in:</label>
-            <input type="date">
-          </div>
-          <div class="out">
-            <label for="book">Check out:</label>
-            <input type="date">
-          </div>
+      <form class="filter-form" action="#">
+        <div class="hotel">
+          <label for="name">Hotel name:</label>
+          <input type="text" name="name" id="name">
         </div>
-        <div class="buttons"></div>
+        <div class="state">
+          <label for="city">City:*</label>
+          <select name="city" id="city">
+            <option value="none">Choose</option>
+            <option value="uma">Umauhia</option>
+            <option value="ak">Awka</option>
+            <option value="bau">Bauchi</option>
+            <option value="yen">Yenagoa</option>
+            <option value="ado">Ado-Ekiti</option>
+            <option value="imo">Owerri</option>
+            <option value="dut">Dutse</option>
+            <option value="kd">Kaduna</option>
+            <option value="kano">Kano</option>
+            <option value="kog">Lokoja</option>
+            <option value="kwa">Ilorin</option>
+            <option value="lag">Ikeja</option>
+            <option value="nig">Minna</option>
+            <option value="ogun">Abeokuta</option>
+            <option value="oyo">Ibadan</option>
+            <option value="pla">Jos</option>
+            <option value="riv">Port-Harcourt</option>
+            <option value="sok">Sokoto</option>
+            <option value="fct">Abuja</option>
+          </select>
+        </div>
+        <div class="in">
+          <label for="book">Check in:</label>
+          <input type="date">
+        </div>
+        <div class="out">
+          <label for="book">Check out:</label>
+          <input type="date">
+        </div>
+        <div class="buttons">
+          <button class="search-btn" href="detail.html">Search</button>
+          <button class="clear-filter" type="reset">
+            <i class="far fa-edit"></i>
+            Clear filter
+          </button>
+        </div>
       </form>
     </section>
     <section class="results">
