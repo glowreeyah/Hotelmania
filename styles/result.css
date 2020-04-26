@@ -52,7 +52,7 @@ body {
 
 .results div img {
   width: 100%;
-  height: 100%;
+  height: 200px;
   border: thin solid #d0d1d3;
 }
 
@@ -68,7 +68,17 @@ body {
   margin-top: 2rem;
 }
 
+.results div p {
+  color:  #d45749;
+  margin-top: 0 auto;
+  font-weight: 700;
+}
 
+.results div span {
+  display: block;
+  font-weight: 600;
+  color: rgb(117, 57, 57);
+}
 
 @media (min-width: 768px) {
   .filter {
