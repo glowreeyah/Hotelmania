@@ -9,7 +9,8 @@ body {
   margin: 0 auto;
   min-width: 320px;
   font-size: 14px;
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 a {
@@ -28,7 +29,6 @@ header nav {
   left: 0;
   right: 0;
   z-index: 1;
-
 }
 
 header .main-logo .logo {
@@ -36,10 +36,21 @@ header .main-logo .logo {
   font-weight: 500;
 }
 
+footer {
+  background-color: #4d4c4d;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
 nav .right {
   display: flex;
   justify-content: center;
   padding-top: 0.5em;
+}
+
+.none {
+  display: none;
 }
 
 .right span {
@@ -57,12 +68,359 @@ nav .right span:hover {
   display: none;
 }
 
+.image {
+  background: url(https://images.squarespace-cdn.com/content/v1/54f5de03e4b00b0df1635380/1425510251199-K3NQ3NXAVUHMADZP4N6L/ke17ZwdGBToddI8pDm48kA8bS_6GetEqmC-qdnmly3YUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9WMqFP_elgBXcAy7iC73kbM2VqHou4EcOQx12jgZ8XTgXPTlq-hZvKZIu22rtzPO/hotel-bell.jpg?format=2500w),
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 30rem;
+  margin-top: 3rem;
+}
+
+.image .center {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+.image h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.search {
+  background-color: #bdbdbd;
+  width: 70%;
+  padding: 1rem 0.5rem;
+  border-radius: 1rem;
+  margin: 1rem auto 2rem auto;
+  opacity: 0.9;
+}
+
+.search label {
+  font-size: 1rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.search-bar a {
+  display: block;
+  background-color: #d45749;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.directions {
+  background-color: #bdbdbd;
+  margin: 0 auto;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  color: #000;
+  padding: 0.5rem 0.5rem;
+  display: inline-block;
+}
+
+#how {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.step span {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  display: inline-block;
+}
+
+.how-heading {
+  color: #d45749;
+  padding: 0.3rem;
+}
+
+.step span a {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #000;
+}
+
+.step-title {
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.step-text {
+  padding: 1rem;
+  text-align: center;
+  color: #4d4c4d;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+
+#info {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.registered,
+.find,
+.anytime {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 6rem;
+}
+
+.registered {
+  background-color: #fa9681;
+}
+
+.find {
+  background-color: #98a5a6;
+}
+
+.anytime {
+  background-color: #519bd9;
+}
+
+#info article .text {
+  width: fit-content;
+}
+
+#info article h3 {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#info article h5 {
+  color: #fff;
+  font-size: 0.7rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+#info article .find-cont {
+  font-size: 1rem;
+  background-color: #fff;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
+}
+
+.find-hotel {
+  color: #fa9681;
+}
+
+.find-near {
+  color: #98a5a6;
+}
+
+#info img {
+  display: block;
+  max-width: 10rem;
+  height: 10rem;
+  border-radius: 70%;
+  margin: 0.5rem auto;
+  padding: 0.3rem;
+}
+
+.bottom-nav {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.bottom-nav div {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 0.01rem solid #5f5e5e;
+  border-bottom: 0.01rem solid #5f5e5e;
+}
+
+.bottom-nav div a {
+  margin: 0 0.2rem;
+  font-size: 0.6rem;
+}
+
+.bottom-nav div a:hover {
+  color: gray;
+}
+
+.sub-con-abt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.sub {
+  flex: 1;
+}
+
+.sub-con-abt h4 {
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.foot-email input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 0.5rem;
+  color: #5f5e5e;
+  background-color: #000;
+  border: 0.1rem solid gray;
+}
+
+.sub a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  background-color: #e7e4e44b;
+  border: 0.1rem solid gray;
+  padding: 6px;
+  margin-top: 0.5rem;
+}
+
+.con,
+.ab {
+  margin-top: 1.2rem;
+  flex: 1;
+}
+
+.con h5 {
+  font-weight: normal;
+}
+
+.ab p,
+.con p {
+  font-size: 0.6rem;
+}
+
+.sub-con-abt .color {
+  color: #d45749;
+}
+
+.social-media a {
+  margin: 0 0.5rem;
+  color: #b1aeae;
+}
+
+.rights p {
+  font-size: smaller;
+}
+
+.rights p .bolder {
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   header nav {
     background-color: #d45749;
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5em 3em;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 0.4rem;
+  }
+
+  .image .center {
+    width: 60%;
+  }
+
+  .image h1 {
+    width: 100%;
+  }
+
+  .search {
+    width: 100%;
+    padding: 2.5rem;
+    text-align: left;
+  }
+
+  .search-bar {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+
+  .search-bar input {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .search-bar a {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 0.5rem;
+    width: 20%;
+  }
+
+  .registered,
+  .find,
+  .anytime {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    height: 12rem;
+  }
+
+  .bottom-nav {
+    padding: 2rem 3rem 0 3rem;
+  }
+
+  .bottom-nav div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .sub-con-abt {
+    flex-direction: row;
+    padding: 2rem 3rem;
+  }
+
+  .sub {
+    align-self: center;
+  }
+
+  .sub a {
+    display: block;
+    text-align: center;
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .foot-email {
+    text-align: left;
+    display: flex;
+    height: 3rem;
+  }
+
+  .foot-email input {
+   color: #5f5e5e;
+   flex: 5;
+   margin-top: 0;
   }
 }
 
@@ -74,5 +432,25 @@ nav .right span:hover {
   .dis {
     display: inline-block;
     margin: 0 !important;
+  }
+
+  .one-two,
+  .three-four {
+    display: flex;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four {
+    flex: 1;
+    padding: 4em;
+  }
+
+  #info .registered,
+  #info .find,
+  #info .anytime {
+    padding: 1.5rem 2rem;
+    text-align: left;
   }
 }
