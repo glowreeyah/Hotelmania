@@ -1,0 +1,38 @@
+body {
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.your-info {
+  margin: 12rem 5rem 1rem;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 2rem 1rem 1rem;
+}
+
+.choice-hotel {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  margin-bottom: 1rem;
+  color: #d45749;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.choice-hotel a {
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  color: #d45749;
+}
+
+
