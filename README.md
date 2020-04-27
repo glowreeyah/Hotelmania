@@ -53,7 +53,7 @@ Microverse Capstone Project - (Hotelmania - a hotel directory that bridges the g
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](screenshot.gif)
+[![Product Name Screen Shot][product-screenshot]](hotelmania.gif)
 
 This is the final project of the Microverse HTML and CSS Module
 
