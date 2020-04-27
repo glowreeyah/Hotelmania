@@ -71,8 +71,7 @@ Contributions, issues and feature requests are welcome! Start by:
 ### Built With
 This project was built using these technologies.
 * HTML5
-* CSS3
-* Bootstrap
+* CSS
 
 <!-- LIVE VERSION -->
 ## Live version
