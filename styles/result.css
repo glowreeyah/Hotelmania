@@ -109,10 +109,6 @@ body {
   border-radius: 0.5rem;
 }
 
-.clear-filter .far {
-  margin: auto 0.5rem auto 0;              
-}
-
 .search-btn:hover,
 .clear-filter:hover {
   transform: scale(0.9);
