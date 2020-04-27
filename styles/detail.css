@@ -1,6 +1,5 @@
 body {
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -67,6 +66,11 @@ body {
   font-size: 1rem;
 }
 
+.info-bottom span i {
+  color: #457eb4;
+  margin-left: 1rem;
+}
+
 .hotel-about .book i {
   margin: 0 0.5rem 0.7rem 0;
 }
@@ -80,11 +84,6 @@ body {
   font-weight: 700;
   margin: 0.2rem auto;
   color: gray;
-}
-
-.info-bottom span i {
-  color: #457eb4;
-  margin-left: 1rem;
 }
 
 .hotel-desc {
@@ -178,14 +177,11 @@ body {
     margin-right: 3rem;
   }
 
-  .hotel-about .book {
-    bottom: 4rem;
-    font-size: 0.8rem;
-  }
-
   .book {
     display: flex;
     flex-wrap: wrap;
+    bottom: 4rem;
+    font-size: 0.8rem;
   }
 
   .info-bottom {

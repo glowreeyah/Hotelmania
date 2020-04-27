@@ -9,8 +9,7 @@ body {
   margin: 0 auto;
   min-width: 320px;
   font-size: 14px;
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -58,6 +57,12 @@ nav .right {
   font-size: 12px;
   padding: 5px;
   font-weight: 400;
+}
+
+.step span {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  display: inline-block;
 }
 
 nav .right span:hover {
@@ -120,6 +125,33 @@ nav .right span:hover {
   margin-top: 0.2rem;
 }
 
+.social-media a {
+  margin: 0 0.5rem;
+  color: #b1aeae;
+}
+
+.sub a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  background-color: #e7e4e44b;
+  border: 0.1rem solid gray;
+  padding: 6px;
+  margin-top: 0.5rem;
+}
+
+.step span a {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #000;
+}
+
+.bottom-nav div a {
+  margin: 0 0.2rem;
+  font-size: 0.6rem;
+}
+
 .search-bar a:hover {
   color: #4d4d4d;
 }
@@ -139,22 +171,9 @@ nav .right span:hover {
   margin-top: 2rem;
 }
 
-.step span {
-  margin: 0.2rem;
-  padding: 0.2rem;
-  display: inline-block;
-}
-
 .how-heading {
   color: #d45749;
   padding: 0.3rem;
-}
-
-.step span a {
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.5em;
-  color: #000;
 }
 
 .step-title {
@@ -208,6 +227,10 @@ nav .right span:hover {
   margin: 0;
 }
 
+.con h5 {
+  font-weight: normal;
+}
+
 #info article h5 {
   color: #fff;
   font-size: 0.7rem;
@@ -257,11 +280,6 @@ nav .right span:hover {
   border-bottom: 0.01rem solid #5f5e5e;
 }
 
-.bottom-nav div a {
-  margin: 0 0.2rem;
-  font-size: 0.6rem;
-}
-
 .bottom-nav div a:hover {
   color: gray;
 }
@@ -293,24 +311,10 @@ nav .right span:hover {
   border: 0.1rem solid gray;
 }
 
-.sub a {
-  display: block;
-  color: #fff;
-  width: 100%;
-  background-color: #e7e4e44b;
-  border: 0.1rem solid gray;
-  padding: 6px;
-  margin-top: 0.5rem;
-}
-
 .con,
 .ab {
   margin-top: 1.2rem;
   flex: 1;
-}
-
-.con h5 {
-  font-weight: normal;
 }
 
 .ab p,
@@ -320,11 +324,6 @@ nav .right span:hover {
 
 .sub-con-abt .color {
   color: #d45749;
-}
-
-.social-media a {
-  margin: 0 0.5rem;
-  color: #b1aeae;
 }
 
 .rights p {

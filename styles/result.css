@@ -71,7 +71,7 @@ body {
 }
 
 .results div p {
-  color:  #d45749;
+  color: #d45749;
   margin-top: 0 auto;
   font-weight: 700;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .clear-filter .far {
-  margin: auto .5rem auto 0;              
+  margin: auto 0.5rem auto 0;              
 }
 
 .search-btn:hover,
