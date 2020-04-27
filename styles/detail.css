@@ -118,6 +118,13 @@ body {
   margin: 0 5rem 5rem;
 }
 
+.map-direction iframe {
+  width: 100%;
+  height: 25rem;
+  display: block;
+  margin: 2rem auto 0;
+}
+
 @media only screen and (max-width: 768px) {
   .hotel-info {
     grid-template-columns: 1fr;
