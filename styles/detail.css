@@ -76,14 +76,38 @@ body {
 
 .info-bottom {
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0.2rem auto;
-  color: #000;
+  color: gray;
 }
 
 .info-bottom span i {
   color: #457eb4;
   margin-left: 1rem;
+}
+
+.hotel-desc {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1.5rem 4rem 1rem;
+  color: #1f1f1f;
+}
+
+.click-view {
+  background-color: #f0ecec;
+  margin: 0 5rem 5rem;
+  padding: 2rem;
+}
+
+.click-view a {
+  color: #1f1f1f;
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+}
+
+.click-view a .fas {
+  color: #bdbdbd;
 }
 
 @media only screen and (max-width: 768px) {
@@ -111,5 +135,19 @@ body {
   .info-bottom {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .hotel-desc {
+    display: none;
+  }
+
+  .click-view {
+    padding: 0;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .click-view a {
+    font-size: 1.2rem;
   }
 }
