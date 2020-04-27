@@ -61,7 +61,7 @@ nav .right {
 }
 
 nav .right span:hover {
-  transform: rotate(-5deg);
+  transform: scale(0.9);
 }
 
 .dis {
@@ -69,8 +69,7 @@ nav .right span:hover {
 }
 
 .image {
-  background: url(https://images.squarespace-cdn.com/content/v1/54f5de03e4b00b0df1635380/1425510251199-K3NQ3NXAVUHMADZP4N6L/ke17ZwdGBToddI8pDm48kA8bS_6GetEqmC-qdnmly3YUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9WMqFP_elgBXcAy7iC73kbM2VqHou4EcOQx12jgZ8XTgXPTlq-hZvKZIu22rtzPO/hotel-bell.jpg?format=2500w),
-    no-repeat;
+  background: url(https://images.squarespace-cdn.com/content/v1/54f5de03e4b00b0df1635380/1425510251199-K3NQ3NXAVUHMADZP4N6L/ke17ZwdGBToddI8pDm48kA8bS_6GetEqmC-qdnmly3YUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9WMqFP_elgBXcAy7iC73kbM2VqHou4EcOQx12jgZ8XTgXPTlq-hZvKZIu22rtzPO/hotel-bell.jpg?format=2500w), no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -119,6 +118,10 @@ nav .right span:hover {
   text-align: center;
   width: 100%;
   margin-top: 0.2rem;
+}
+
+.search-bar a:hover {
+  color: #4d4d4d;
 }
 
 .directions {
@@ -233,6 +236,10 @@ nav .right span:hover {
   border-radius: 70%;
   margin: 0.5rem auto;
   padding: 0.3rem;
+}
+
+#info img:hover {
+  transform: scale(0.9);
 }
 
 .bottom-nav {
@@ -418,9 +425,9 @@ nav .right span:hover {
   }
 
   .foot-email input {
-   color: #5f5e5e;
-   flex: 5;
-   margin-top: 0;
+    color: #5f5e5e;
+    flex: 5;
+    margin-top: 0;
   }
 }
 
