@@ -35,4 +35,23 @@ body {
   color: #d45749;
 }
 
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.9rem;
+  margin: 0 2rem 3rem 0;
+}
+
+.contact-info div {
+  text-align: center;
+  padding: 0.5rem 0;
+  border: thin solid #ccc;
+  font-size: 1rem;
+  font-weight: 600;
+  color: gray;
+}
+
+.contact-info div span {
+  color: #457eb4;
+}
 
