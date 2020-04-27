@@ -55,3 +55,15 @@ body {
   color: #457eb4;
 }
 
+@media only screen and (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+    margin-right: 0;
+
+  }
+
+  .your-info {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
