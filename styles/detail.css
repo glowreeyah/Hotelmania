@@ -110,6 +110,14 @@ body {
   color: #bdbdbd;
 }
 
+.map-direction {
+  color: #d45749;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 5rem 5rem;
+}
+
 @media only screen and (max-width: 768px) {
   .hotel-info {
     grid-template-columns: 1fr;
@@ -147,7 +155,8 @@ body {
     margin-right: 4rem;
   }
 
-  .click-view a {
+  .click-view a,
+  .map-direction {
     font-size: 1.2rem;
   }
 }
