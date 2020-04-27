@@ -10,10 +10,11 @@ body {
   box-sizing: border-box;
 }
 
-.your-info {
+.hotel-about {
   margin: 12rem 5rem 1rem;
   box-shadow: 3px 3px 5px 6px #ccc;
   padding: 2rem 1rem 1rem;
+  text-align: right;
 }
 
 .choice-hotel {
@@ -35,14 +36,14 @@ body {
   color: #d45749;
 }
 
-.contact-info {
+.hotel-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.9rem;
   margin: 0 2rem 3rem 0;
 }
 
-.contact-info div {
+.hotel-info div {
   text-align: center;
   padding: 0.5rem 0;
   border: thin solid #ccc;
@@ -51,19 +52,64 @@ body {
   color: gray;
 }
 
-.contact-info div span {
+.hotel-info div span {
   color: #457eb4;
 }
 
+.hotel-about .book {
+  background-color: #457eb4;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.hotel-about .book i {
+  margin: 0 0.5rem 0.7rem 0;
+}
+
+.hotel-about button:hover {
+  transform: scale(0.9);
+}
+
+.info-bottom {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.2rem auto;
+  color: #000;
+}
+
+.info-bottom span i {
+  color: #457eb4;
+  margin-left: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
-  .contact-info {
+  .hotel-info {
     grid-template-columns: 1fr;
     margin-right: 0;
 
   }
 
-  .your-info {
+  .hotel-about {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+
+  .hotel-about .book {
+    bottom: 4rem;
+    font-size: 0.8rem;
+  }
+
+  .book {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info-bottom {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
