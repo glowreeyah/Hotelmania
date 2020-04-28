@@ -56,7 +56,7 @@ nav .right {
   display: none;
 }
 
-.right span {
+.right li {
   margin: 0 4em;
   font-size: 12px;
   padding: 5px;
@@ -69,7 +69,7 @@ nav .right {
   display: inline-block;
 }
 
-nav .right span:hover {
+nav .right li:hover {
   transform: scale(0.9);
 }
 
@@ -151,7 +151,7 @@ nav .right span:hover {
   color: #000;
 }
 
-.bottom-nav div a {
+.bottom-nav ul li a {
   margin: 0 0.2rem;
   font-size: 0.6rem;
 }
@@ -276,7 +276,7 @@ nav .right span:hover {
   padding: 1rem 0.5rem 0 1rem;
 }
 
-.bottom-nav div {
+.bottom-nav ul {
   text-align: center;
   width: 100%;
   padding: 0.2rem 0;
@@ -284,7 +284,7 @@ nav .right span:hover {
   border-bottom: 0.01rem solid #5f5e5e;
 }
 
-.bottom-nav div a:hover {
+.bottom-nav ul li a:hover {
   color: gray;
 }
 
@@ -401,7 +401,7 @@ nav .right span:hover {
     padding: 2rem 3rem 0 3rem;
   }
 
-  .bottom-nav div {
+  .bottom-nav ul {
     width: 100%;
     text-align: center;
     display: flex;
@@ -443,7 +443,7 @@ nav .right span:hover {
 }
 
 @media (min-width: 1024px) {
-  .right span {
+  .right li {
     margin: 0;
   }
 
