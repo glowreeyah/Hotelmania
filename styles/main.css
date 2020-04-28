@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +11,7 @@
 body {
   width: 100%;
   margin: 0 auto;
-  min-width: 320px;
+  min-width: 380px;
   font-size: 14px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -269,19 +273,23 @@ nav .right span:hover {
   background-color: #000;
   display: flex;
   justify-content: center;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 0.5rem 0 1rem;
 }
 
 .bottom-nav div {
   text-align: center;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 0.2rem 0;
   border-top: 0.01rem solid #5f5e5e;
   border-bottom: 0.01rem solid #5f5e5e;
 }
 
 .bottom-nav div a:hover {
   color: gray;
+}
+
+.last-logo .fas {
+  font-size: 1.5rem;
 }
 
 .sub-con-abt {
@@ -399,6 +407,10 @@ nav .right span:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
+  }
+
+  .last-logo .fas {
+    font-size: 2.5rem;
   }
 
   .sub-con-abt {
