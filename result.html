@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/result.css">
+    <link rel="stylesheet" href="styles/sanitize.css">
+    <script src="https://kit.fontawesome.com/99ec583b17.js" crossorigin="anonymous"></script>
+    <title>Hotelmania - Results</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="main.html" class="main-logo">
+        <span><i class="fas fa-luggage-cart fa-2x"></i></span>
+        <span class="logo">hotelmania</span>
+      </a>
+    
+      <ul class="right hvr-buzz">
+        <li>
+          <a href="result.html"><i class="fa fa-search-location fa-sm"></i></a>
+        </li>
+        <li class="dis"><a href="result.html">HOTELS</a></li>
+        <li>
+          <a href="#"><i class="far fa-user fa-sm"></i></a>
+        </li>
+        <li class="dis"><a href="#">ABOUT</a></span>
+        <li>
+          <a href="#"><i class="fas fa-rss fa-sm"></i></a>
+        </li>
+        <li class="dis"><a href="#blog">BLOG</a></li>
+        <li>
+          <a href="#"><i class="fas fa-bars fa-sm"></i></a>
+        </li>
+        <li class="dis"><a href="#">MORE</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="filter">
+      <h1>Filter by city, hotel, check-in and check-out dates </h1>
+      <form class="filter-form" action="#">
+        <div class="hotel">
+          <label for="name">Hotel name:</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="state">
+          <label for="city">City:*</label>
+          <select name="city" id="city">
+            <option value="none">Choose</option>
+            <option value="uma">Umauhia</option>
+            <option value="ak">Awka</option>
+            <option value="bau">Bauchi</option>
+            <option value="yen">Yenagoa</option>
+            <option value="ado">Ado-Ekiti</option>
+            <option value="imo">Owerri</option>
+            <option value="dut">Dutse</option>
+            <option value="kd">Kaduna</option>
+            <option value="kano">Kano</option>
+            <option value="kog">Lokoja</option>
+            <option value="kwa">Ilorin</option>
+            <option value="lag">Ikeja</option>
+            <option value="nig">Minna</option>
+            <option value="ogun">Abeokuta</option>
+            <option value="oyo">Ibadan</option>
+            <option value="pla">Jos</option>
+            <option value="riv">Port-Harcourt</option>
+            <option value="sok">Sokoto</option>
+            <option value="fct">Abuja</option>
+          </select>
+        </div>
+        <div class="in">
+          <label for="check-in">Check in:</label>
+          <input type="number" id="check-in">
+        </div>
+        <div class="out">
+          <label for="check-out">Check out:</label>
+          <input type="number" id="check-out">
+        </div>
+        <div class="buttons">
+          <button class="search-btn" type="submit">Search</button>
+          <button class="clear-filter" type="reset">
+            <i class="far fa-edit"></i>
+            Clear filter
+          </button>
+        </div>
+      </form>
+    </section>
+    <section class="results">
+      <h2>Search Results Found 6 hotel(s):</h2>
+      <div>
+        <a href="detail.html">
+          <img src="https://media.api.timbu.com/img/big/the-regent-lagos-26327.png" alt="Regent">
+          <p>The Regent Luxury Suites<span>Ikeja, Lagos</span></p>
+        </a>
+        <a href="detail.html">
+          <img src="https://media.api.timbu.com/img/big/052ae5ca66a2ce35b5dc6992c4c26c21.jpeg" alt="Double M">
+          <p>Double M Exquisite Suites<span>Lekki, Lagos</span></p>
+        </a>
+        <a href="detail.html">
+          <img src="https://media.api.timbu.com/img/big/a6a03b821ab0d9ed0203349a48feb3c4.jpg" alt="Cocoon">
+          <p>The Cocoon Luxury Suites<span>Ilupeju, Lagos</span></p>
+        </a>
+        <a href="detail.html">
+          <img src="https://media.api.timbu.com/img/big/23ae5a5fb035edc68571ffe58ed5c8bc.jpg" alt="House 9">
+          <p>House 9 Royale<span>Ikeja, Lagos</span></p>
+        </a>
+        <a href="detail.html">
+          <img src="https://media.api.timbu.com/img/big/transcorp-hilton-abuja-abuja-57189.jpg" alt="Transcorp">
+          <p>Sheraton Abuja Hotel<span>Maitama, Abuja</span></p>
+        </a>
+        <a href="detail.html">
+          <img src="https://media.api.timbu.com/img/big/sheraton-abuja-hotel-abuja-735.jpg" alt="Sheraton">
+          <p>Transcorp Hilton Abuja<span>Maitama, Abuja</span></p>
+        </a>
+      </div>
+    </section>
+    <nav class="bottom-nav">
+      <ul>
+        <li class="home"><a href="#">HOME</a></li>
+        <li class="search-button"><a href="#">SEARCH</a></li>
+        <li class="us"><a href="#">ABOUT US</a></li>
+        <li  class="ad"><a href="#">ADVERTISE</a></li>
+        <li class="last-logo">
+          <a href="main.html"><i class="fas fa-luggage-cart fa-4x"></i></a>
+        </li>
+        <li class="fb"><a href="#">FACEBOOK</a></li>
+        <li class="twitter"><a href="#">TWITTER</a></li>
+        <li class="blog"><a href=#>BLOG</a></li>
+        <li class="google"><a href="#">GOOGLE+</a></li>
+      </ul>
+    </nav>
+    <div class="sub-con-abt">
+      <div class="sub">
+        <h4>SUBSCRIBE</h4>
+        <form action="post" class="foot-email">
+          <input type="email" name="subscribe" id="subscribe" placeholder="you@example.com">
+          <a href="#">send</a>
+        </form>
+      </div>
+      <div class="con">
+        <h4>CONTACT</h4>
+        <h5>Have a question or submission?</h5>
+        <p class="color">glodave99@gmail.com</p>
+      </div>
+      <div class="ab">
+        <h4>ABOUT</h4>
+        <p>Hotelmania is an online platform that assists you to find a suitable hotel to your taste searching by state, hotel, room e.t.c 
+          <span><a class="color" href="#">Learn more...</a></span>
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-tumblr"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+    <div class="rights">
+      <p><span>© HOTELMANIA 2020</span>
+         ALL RIGHTS RESERVED. POWERED BY 
+        <span class="bolder">HOTELS NIGERIA</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
