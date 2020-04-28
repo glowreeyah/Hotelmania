@@ -31,7 +31,7 @@ Microverse Capstone Project - (Hotelmania - a hotel directory that bridges the g
   <a href="https://github.com/glowreeyah/Hotelmania"><strong>Explore the docs »</strong></a>
   <br />
   <br />
-  <a href="https://raw.githack.com/glowreeyah/Hotelmania/feature/main.html">View Demo</a>
+  <a href="https://raw.githack.com/glowreeyah/Hotelmania/master/main.html">View Demo</a>
   ·
   <a href="https://github.com/glowreeyah/Hotelmania/issues">Report Bug</a>
   ·
@@ -76,7 +76,7 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it working [here](https://raw.githack.com/glowreeyah/Hotelmania/feature/main.html)
+You can see it working [here](https://raw.githack.com/glowreeyah/Hotelmania/master/main.html)
 
 <!-- CONTACT -->
 ## Contributors
