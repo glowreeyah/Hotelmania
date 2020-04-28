@@ -26,14 +26,19 @@ body {
   -webkit-box-direction: normal;
   margin-bottom: 1rem;
   color: #d45749;
-  font-size: 1.7rem;
-  font-weight: 400;
 }
 
 .choice-hotel a {
   height: 2.5rem;
   margin-right: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
   color: #d45749;
+}
+
+.choice-hotel h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .hotel-info {

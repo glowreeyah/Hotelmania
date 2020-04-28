@@ -140,7 +140,7 @@ nav .right span:hover {
   width: 100%;
   background-color: #e7e4e44b;
   border: 0.1rem solid gray;
-  padding: 6px;
+  padding: 10px;
   margin-top: 0.5rem;
 }
 
@@ -170,7 +170,7 @@ nav .right span:hover {
   display: inline-block;
 }
 
-#how {
+.how-to {
   text-align: center;
   margin-top: 2rem;
 }
@@ -196,7 +196,7 @@ nav .right span:hover {
   margin-top: 0;
 }
 
-#info {
+.info {
   margin-top: 2rem;
   text-align: center;
 }
@@ -221,11 +221,11 @@ nav .right span:hover {
   background-color: #519bd9;
 }
 
-#info article .text {
+.info article .text {
   width: fit-content;
 }
 
-#info article h3 {
+.info article h3 {
   color: #fff;
   font-size: 1rem;
   margin: 0;
@@ -235,13 +235,13 @@ nav .right span:hover {
   font-weight: normal;
 }
 
-#info article h5 {
+.info article h5 {
   color: #fff;
   font-size: 0.7rem;
   margin: 1.5rem 0 2rem 0;
 }
 
-#info article .find-cont {
+.info article .find-cont {
   font-size: 1rem;
   background-color: #fff;
   font-weight: 600;
@@ -256,7 +256,7 @@ nav .right span:hover {
   color: #98a5a6;
 }
 
-#info img {
+.info img {
   display: block;
   max-width: 10rem;
   height: 10rem;
@@ -265,7 +265,7 @@ nav .right span:hover {
   padding: 0.3rem;
 }
 
-#info img:hover {
+.info img:hover {
   transform: scale(0.9);
 }
 
@@ -465,9 +465,9 @@ nav .right span:hover {
     padding: 4em;
   }
 
-  #info .registered,
-  #info .find,
-  #info .anytime {
+  .info .registered,
+  .info .find,
+  .info .anytime {
     padding: 1.5rem 2rem;
     text-align: left;
   }
